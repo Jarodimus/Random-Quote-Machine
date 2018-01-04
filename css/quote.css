@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+  }
+  
+  table, th, td {
+      border: 1px solid black;
+  }
+  
+  tr {
+    height: 50px;
+  }
+  
+  .button-row {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .social {
+      background-color: transparent;
+      background-repeat:no-repeat;
+      color: white;
+      border: none;
+      cursor:pointer;
+      overflow: hidden;
+      outline:none;
+      margin-left: 10px;
+  }
+  .social:hover {
+     color: #405B7F;
+  }
+  .quote-box {
+    background-color: #6790C8;
+    color: white;
+    width: 700px;
+    margin: 5% auto auto auto;
+    position: relative;
+    display: table;
+    border-radius: 20px;
+  }
+  
+  .quotation {
+    text-align: center;
+    padding: 40px;
+    display: block;
+    font-family: Yrsa;
+  }
+  
+  .quote {
+    color: white;
+    font-size: 28px;
+    font-style: Yrsa;
+  }
+  
+  .author {
+    text-align: right;
+    margin-right: 90px;
+  }
+  
+  .author-text {
+    font-size: 22px;  
+  }
+  
+  .quote-sym {
+    font-size: 30px;
+    margin-right:4px;
+    margin-left: 4px;
+  }
+  
+  .new-quote-btn {
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: white;
+    background: #405B7F;
+    padding: 7px 20px 7px 20px;
+    font-family: Yrsa;
+  }
+  .new-quote-btn:hover {
+    background: white;
+    color: black;
+  }
+
+  .footer {
+      margin-top: 2%;
+      font-family: Open Sans;
+      font-size: 14px;
+      color: black;
+      text-align: center;
+  }
